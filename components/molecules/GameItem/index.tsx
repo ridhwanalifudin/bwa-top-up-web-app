@@ -11,7 +11,7 @@ export default function GameItem(props: GameItemProps) {
   const {title, category, thumbnail} = props;
   return (
     <div className="featured-game-card position-relative">
-      <Link href="/detail.html"><a >
+      <Link href="/detail"><a >
         <div className="blur-sharp">
           <Image className="thumbnail" src={`/img/${thumbnail}.png`} width={205} height={270} alt="thumbnail" />
         </div>
